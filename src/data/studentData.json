@@ -1,0 +1,135 @@
+[
+{
+    "id": 1,
+    "specialKey": "abc123",
+    "chineseName": "张三",
+    "pinyinName": "Zhāng Sān",
+    "englishName": "John Smith",
+    "teacherFeedback": "Excellent student with a strong work ethic.",
+    "exams": [
+      { "type": "listening", "score": 20, "max": 20 },
+      { "type": "writing", "score": 20, "max": 20 },
+      { "type": "general paper", "score": 1, "max": 20 }
+    ],
+    "behaviour": {
+      "attendance": 7,
+      "participation": 6,
+      "behavior": 3,
+      "conduct": 7
+    }
+  },
+  {
+    "id": 2,
+    "specialKey": "def456",
+    "chineseName": "李四",
+    "pinyinName": "Lǐ Sì",
+    "englishName": "Alice Johnson",
+    "teacherFeedback": "Diligent student with a positive attitude.",
+    "exams": [
+      { "type": "listening", "score": 15, "max": 20 },
+      { "type": "writing", "score": 12, "max": 20 },
+      { "type": "general paper", "score": 18, "max": 20 }
+    ],
+    "behaviour": {
+      "attendance": 4,
+      "participation": 8,
+      "behavior": 5,
+      "conduct": 6
+    }
+  },
+  {
+    "id": 3,
+    "specialKey": "ghi789",
+    "chineseName": "王五",
+    "pinyinName": "Wáng Wǔ",
+    "englishName": "Emily Davis",
+    "teacherFeedback": "Highly motivated student with great analytical skills.",
+    "exams": [
+      { "type": "listening", "score": 19, "max": 20 },
+      { "type": "writing", "score": 16, "max": 20 },
+      { "type": "general paper", "score": 14, "max": 20 }
+    ],
+    "behaviour": {
+      "attendance": 6,
+      "participation": 9,
+      "behavior": 4,
+      "conduct": 8
+    }
+  },
+  {
+    "id": 4,
+    "specialKey": "jkl012",
+    "chineseName": "赵六",
+    "pinyinName": "Zhào Liù",
+    "englishName": "Michael Brown",
+    "teacherFeedback": "Consistently produces high-quality work.",
+    "exams": [
+      { "type": "listening", "score": 17, "max": 20 },
+      { "type": "writing", "score": 13, "max": 20 },
+      { "type": "general paper", "score": 16, "max": 20 }
+    ],
+    "behaviour": {
+      "attendance": 7,
+      "participation": 7,
+      "behavior": 5,
+      "conduct": 9
+    }
+  },
+  {
+    "id": 5,
+    "specialKey": "mno345",
+    "chineseName": "陈七",
+    "pinyinName": "Chén Qī",
+    "englishName": "Sophia Miller",
+    "teacherFeedback": "A creative thinker with a keen interest in the subject.",
+    "exams": [
+      { "type": "listening", "score": 14, "max": 20 },
+      { "type": "writing", "score": 18, "max": 20 },
+      { "type": "general paper", "score": 12, "max": 20 }
+    ],
+    "behaviour": {
+      "attendance": 8,
+      "participation": 6,
+      "behavior": 6,
+      "conduct": 7
+    }
+  },
+  {
+    "id": 6,
+    "specialKey": "pqr678",
+    "chineseName": "黄八",
+    "pinyinName": "Huáng Bā",
+    "englishName": "Daniel Wilson",
+    "teacherFeedback": "Demonstrates a strong grasp of the material.",
+    "exams": [
+      { "type": "listening", "score": 16, "max": 20 },
+      { "type": "writing", "score": 14, "max": 20 },
+      { "type": "general paper", "score": 19, "max": 20 }
+    ],
+    "behaviour": {
+      "attendance": 9,
+      "participation": 5,
+      "behavior": 7,
+      "conduct": 8
+    }
+  },
+  {
+    "id": 7,
+    "specialKey": "stu901",
+    "chineseName": "许九",
+    "pinyinName": "Xǔ Jiǔ",
+    "englishName": "Olivia Taylor",
+    "teacherFeedback": "Enthusiastic learner with a positive attitude.",
+    "exams": [
+      { "type": "listening", "score": 13, "max": 20 },
+      { "type": "writing", "score": 17, "max": 20 },
+      { "type": "general paper", "score": 15, "max": 20 }
+    ],
+    "behaviour": {
+      "attendance": 7,
+      "participation": 7,
+      "behavior": 4,
+      "conduct": 9
+    }
+  }
+  ]

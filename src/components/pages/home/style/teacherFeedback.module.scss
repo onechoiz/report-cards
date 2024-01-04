@@ -1,0 +1,22 @@
+@import "../../../../../public/style/var.module.scss";
+.container{
+     width: 100%;
+     text-align: center;
+     padding: $innerPadding;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+    //  border-bottom: $cardBorder;
+     .heading{
+         @include sectionHeading;
+     }
+     .feedback{
+      
+        border: $cardBorder;
+        border-radius: $bd;
+        padding: 40px 20px;
+        text-align: start;
+        color: $prim;
+        font-style: italic;
+     }
+}

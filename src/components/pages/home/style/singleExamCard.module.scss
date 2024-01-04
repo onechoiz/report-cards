@@ -1,0 +1,33 @@
+@import "../../../../../public/style/var.module.scss";
+.container{
+    width: 30%;
+    @include cardBsic();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+        margin-bottom: 10px;
+    }
+    p{
+        margin: 10px 0;
+        font-size: 20;
+        span{
+          color: $imp;
+          font-size: 25px;
+        //   margin-left: 20px;
+        }
+    }
+    .max_score{
+        align-self:flex-end;
+        font-size: 13px;
+        font-style: italic;
+          color: $acc;
+    }
+   
+}
+
+@media (max-width: 562px ){
+    .container {
+        width: 100%;
+    }
+}

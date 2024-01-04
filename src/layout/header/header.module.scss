@@ -1,0 +1,48 @@
+@import "../../../public/style/var.module.scss";
+
+.container{
+    width: 100%;
+    background-color: $prim;
+    min-height: 50px;
+    padding: $innerPadding;
+     display: flex;
+    justify-content:space-between;
+    // gap: 10px 10%;
+    align-items: center;
+   
+   
+    .logo{
+        width: 10%;
+        //   padding: 10px;
+     
+       
+        img{
+          border-radius: 40%;
+     
+  
+        }
+        
+    }
+    .nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px 5%;
+
+    }
+    .link{
+        color: $text;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 720px){
+
+}
