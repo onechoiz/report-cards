@@ -7,14 +7,20 @@
     justify-content: center;
     h2{
         margin-bottom: 10px;
+        height: 30% ;
     }
     p{
         margin: 10px 0;
         font-size: 20;
-        span{
+        .score{
           color: $imp;
           font-size: 25px;
         //   margin-left: 20px;
+        }
+    }
+    .ranking{
+        span{
+            color: $warn;
         }
     }
     .max_score{
@@ -25,6 +31,7 @@
     }
    
 }
+// sidenav
 
 @media (max-width: 562px ){
     .container {

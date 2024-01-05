@@ -1,48 +1,77 @@
 @import "../../../public/style/var.module.scss";
 
-.container{
-    width: 100%;
-    background-color: $prim;
-    min-height: 50px;
-    padding: $innerPadding;
-     display: flex;
-    justify-content:space-between;
-    // gap: 10px 10%;
-    align-items: center;
-   
-   
-    .logo{
-        width: 10%;
-        //   padding: 10px;
-     
-       
-        img{
-          border-radius: 40%;
-     
-  
-        }
-        
+.container {
+  width: 100%;
+  background-color: $prim;
+  min-height: 50px;
+   padding: $innerPadding;
+   position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  // gap: 10px 10%;
+  align-items: center;
+
+  .logo {
+    width: 10%;
+    //   padding: 10px;
+    img {
+      border-radius: 40%;
     }
-    .nav{
+  }
+ 
+  }
+   .nav {
     width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px 5%;
+  }
+ 
 
-    }
-    .link{
-        color: $text;
-        text-decoration: none;
-    }
+
+ .link {
+    color: $text;
+    text-decoration: none;
+  }
+
+.sidenav {
+   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    
+   
+
+    //   height: 100vh;
+ 
+   
 }
+ .sidenav_links {
+      display: flex;
+    
+     background: $bg;
+     border-radius: $bd;
+      flex-direction: column;
+      gap: 20px;
+      padding: $innerPadding;
+      min-height: 100vh;
+       transition: all 13s ease-in-out;
+      position: absolute;
+        width: 200px;
+        right: -20px;
+        top: 0;
+        // box-shadow: 2px 2px 20px rgba(191, 190, 190, 0.618);
+        box-shadow: 0px 30px 100px ;
+        button{
+            width: 20px;
+        }
+    }
 
 
-
-
-
-
-
-@media (max-width: 720px){
-
+@media (max-width: 720px) {
 }

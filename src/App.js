@@ -1,16 +1,20 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route , useNavigate} from "react-router-dom";
 import "./App.css";
 import Home from "./components/pages/home";
 import Login from "./components/pages/login";
-import Reports from "./components/pages/reports";
+
 import Header from "./layout/header/Header";
 import Footer from "./layout/footer/Footer";
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
+import Reports from './components/pages/reports/index';
 
 
 export const StudentContext = createContext({});
+export const LoggedContext = createContext(false)
+
 
 function App() {
+ const [isLogged, setIsLogget] = useState(false)
  const [student, setStudent] = useState(
   {
     "id": 1,
@@ -30,17 +34,27 @@ function App() {
       "behavior": 3,
       "conduct": 7
     }
-  });
-
+  }
+  
+  );
+  
+const navigate = useNavigate()
+useEffect(() => {
+    // Check if the student is not logged in, then navigate to the login page
+    if (!student) {
+      navigate("/login");
+    }
+  }, [student, navigate]);
 
   return (
     <div className="App">
       <StudentContext.Provider value={{student, setStudent}}>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/individualReports" element={<Reports />} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/individualReports" element={<Reports/>} />
+       
         </Routes>
 
         {/* <Footer/> */}
