@@ -1,60 +1,37 @@
-import React, { useContext } from "react";
-// import SingleReport from './components/SingleReport'
-// import  SingleReport  from './components/SingleReport'
-import pdfMake from "pdfmake/build/pdfmake";
-import pdfFonts from "pdfmake/build/vfs_fonts";
-import { StudentContext } from "../../../App";
+import React, { useContext } from 'react'
+// import {
+//   Document,
+//   Page,
+//   Text,
+//   View,
+//   StyleSheet,
+//   PDFViewer,
+// } from "@react-pdf/renderer";
+import { usePDF } from 'react-to-pdf';
+import { StudentContext } from '../../../App';
 
 const Reports = () => {
-  const {student} = useContext(StudentContext);
-  
-  console.log(student.behaviour);
-  pdfMake.vfs = pdfFonts.pdfMake.vfs;
-  const generatePdf = (student) => {
-
-    const documentDefinition = {
-      content: [
-        { text: "Student Report", style: "header" },
-        { text: `Student Name: ${student.englishName}`, style: "subheader" },
-        { text: `Attendance: ${student.behaviour.attendance}%`, margin: [0, 10] },
-        {
-          text: `Participation: ${student.behaviour.participation}%`,
-          margin: [0, 10],
-        },
-        // Add more information as needed
-      ],
-      styles: {
-        header: { fontSize: 18, bold: true, margin: [0, 0, 0, 10] },
-        subheader: { fontSize: 16, bold: true, margin: [0, 10, 0, 5] },
-      },
-    };
-
-    pdfMake
-      .createPdf(documentDefinition)
-      .open()
-      // .download(`${student.chineseName}student_report.pdf`);
-  
-  };
-  //  const student = {
-  //     englishName: 'John Doe',
-  //     behaviour: {
-  //       attendance: 90,
-  //       participation: 80,
-  //       // Add more behavior information
-  //     },
-  //     // Add more student information
-  //   };
-
-  // console.log(student);
-  
+  const {toPDF, targetRef} = usePDF({filename:"report.pdf"})
+  const {student} = useContext(StudentContext)
+  const name = student.chineseName
+  console.log();
 
   return (
-    <div>
-      <p>hello</p>
-      <h1>Student Report: {student.englishName}</h1>
-      <button onClick={() => generatePdf(student)}>Download PDF</button>
-    </div>
-  );
-};
+    <div>Reports
 
-export default Reports;
+  <button type="" onClick={()=>toPDF()}>pdf</button>
+
+         <div ref={targetRef}>
+            {/* Content to be generated to PDF */}
+            
+            <img src={'assets/logoIEP.png'} style={{width: 230}}/>
+            <div>
+              report - {name}
+            </div>
+         </div>
+    </div>
+  )
+}
+
+
+export  default Reports

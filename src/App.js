@@ -22,22 +22,23 @@ function App() {
     "chineseName": "张三",
     "pinyinName": "Zhāng Sān",
     "englishName": "John Smith",
+    "englishTeacher": "Ms Lily",
     "teacherFeedback": "Excellent student with a strong work ethic.",
     "exams": [
-      { "type": "listening", "score": 20, "max": 20 },
-     { "type": "writing", "score": 0, "max": 20 },
-      { "type": "general paper", "score": 19, "max": 20 }
+      { "type": "listening", "score": 20, "percent": "20%", "max": 20 },
+     { "type": "writing", "score": 0,  "percent": "20%", "max": 20 },
+      { "type": "general", "score": 19,  "percent": "20%", "max": 20 }
     ],
-    "behaviour": {
-      "attendance": 7,
-      "participation": 6,
-      "behavior": 3,
-      "conduct": 7
-    }
+    "behaviour": [
+      {"attentiveness": 7},
+      {"effort": 3},
+      {"participation": 6},
+     { "conduct": 7}
+    ]
   }
   
   );
-  
+
 const navigate = useNavigate()
 useEffect(() => {
     // Check if the student is not logged in, then navigate to the login page
