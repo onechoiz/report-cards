@@ -1,12 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-// import {
-//   Document,
-//   Page,
-//   Text,
-//   View,
-//   StyleSheet,
-//   PDFViewer,
-// } from "@react-pdf/renderer";
+
 import { usePDF } from "react-to-pdf";
 import { StudentContext } from "../../../App";
 import styles from "./reports.module.scss";
@@ -14,12 +7,21 @@ import ReportHeader from "./components/ReportHeader";
 import StudentsInfoBox from './components/StudentsInfoBox';
 import SingleReportBox from "./components/SingleReportBox";
 import { TeacherRmarks } from "./components/TeacherRmarks";
+import ReportFooter from "./components/ReportFooter";
+import { Btn } from "../login/components/Btn";
+
+
+
+
 
 const Reports = () => {
-  const { toPDF, targetRef } = usePDF({ filename: "report.pdf" });
   const { student } = useContext(StudentContext);
-  const [maxScores, setMaxScores] = useState({})
   const name = student.chineseName;
+  const { toPDF, targetRef } = usePDF({ filename: `${name}_report.pdf` });
+
+  const [maxScores, setMaxScores] = useState({})
+const [canDownload, setCanDownload] = useState(false);
+  
   useEffect(() => {
     if (student) {
       let totalScore = student.exams.reduce((acc, e) => {
@@ -45,6 +47,7 @@ const Reports = () => {
       };
 
       setMaxScores(studentTotalCalculation);
+      setCanDownload(window.innerWidth >= 890);
     }
   }, [student]);
 
@@ -65,11 +68,13 @@ const capitalise = (string)=> {
  
 
   return (
-    <div>
-      Reports
-      <button type="" onClick={() => toPDF(options)}>
-        pdf
-      </button>
+    <div className={styles.container}>
+      {!canDownload && <p className={styles.info} >to download the report use a computer with Chrome browser</p>}
+      {canDownload  &&   <Btn onClick={() => toPDF(options)} btnText={'download'} />
+      }
+    
+    
+      
       <div ref={targetRef}>
         {/* Content to be generated to PDF */}
         <div className={styles.pdf_container}>
@@ -87,6 +92,7 @@ const capitalise = (string)=> {
         
          { student.exams && <SingleReportBox exam={"Total"} score={maxScores.totalScore} max={maxScores.totalScoreMax} percentage={maxScores.totalPercMax}/>}
          <TeacherRmarks teacherRmarks={student.teacherFeedback}/>
+         <ReportFooter/>
         </div>
      
       </div>

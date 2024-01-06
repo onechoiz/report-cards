@@ -1,8 +1,14 @@
 @import "../../../../public/style/var.module.scss";
-
-
+.container{
+    //  text-align: center;
+      margin: 30px auto;
+}
+.info{
+    text-align: center;
+    margin: 30px auto;
+}
 .pdf_container{
-    margin: auto;
+    margin: 40px  auto;
     display: flex;
     border:  4px solid  $prim;
     box-shadow: 2px 2px 20px $prim;
@@ -10,7 +16,7 @@
     // align-items: center;
     justify-content: center;
     width: 80%;
-    gap: 30px,
+    gap: 30px
    
 }
 .exams_box{

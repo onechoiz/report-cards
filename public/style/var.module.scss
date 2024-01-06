@@ -6,7 +6,7 @@ $text: #FFFFFF;
 $imp:  rgba(189, 5, 5, 0.795);
 $warn: rgb(255, 145, 0);
 $bg: linear-gradient(127deg, rgba(52,63,100,1) 0%, rgba(52,63,100,1) 65%, rgb(167, 166, 166) 100%);
-
+$shadow:  0px 1px 20px  2px rgba(128, 128, 128, 0.768);
 
 // buttons 
 
@@ -57,6 +57,27 @@ $innerPadding: 10px 20px ;
         min-height: 1px;
         margin: 30px 0;
         background-color: $prim;
-        box-shadow: 0px 1px 20px  2px rgba(128, 128, 128, 0.768);
+        box-shadow: $shadow
     }
+
+button{
+    padding: 10px 10px;
+    margin: 30px;
+    color: $text;
+    background-color: $prim;
+    border: none;
+    box-shadow: $shadow;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: $bd;    
+}
+button:active{
+    color: $prim;
+    background-color: $acc;
+    box-shadow: none;
+}
+button:hover{
+    transform: scale(1.04);
+}
+
 
