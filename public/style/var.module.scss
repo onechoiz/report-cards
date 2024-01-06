@@ -40,6 +40,19 @@ $innerPadding: 10px 20px ;
     margin: 10px 0;
     
 }
+@mixin infoboxBasic{
+   width: 100%;
+    padding: 10px 10px;
+    border: 1px solid ;
+    background-color: #4d5d9433;
+    color: $prim;
+    border-radius: $bd;
+}
+@mixin title {
+    font-size: 30px;
+      text-align: center;
+       color: $prim;
+}
  .devider{
         min-height: 1px;
         margin: 30px 0;

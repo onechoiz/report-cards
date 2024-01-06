@@ -1,0 +1,58 @@
+@import "../../../../../public/style/var.module.scss";
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: $innerPadding;
+    gap: 20px;
+}
+.infobox {
+     @include infoboxBasic;
+//   width: 90% ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  .infobox_item {
+    width: 20%;
+    text-align: start;
+    font-weight: 600;
+    font-size: 24px;
+    
+  }
+  .infobox_item_title{
+     width: 20%;
+    text-align: start;
+  }
+
+ 
+}
+
+@media (max-width: 670px) {
+    
+  .infobox {
+    width: 100%;
+    h2 {
+      font-size: 20px;
+    }
+    .infobox_item , .infobox_item_title {
+        width: 15%;
+    }
+    .infobox_item{
+        font-size: 17px;
+    }
+  }
+}
+
+@media (max-width: 500px){
+    .infobox {
+    h2 {
+      font-size: 15px;
+    }
+    .infobox_item {
+        width: 15%;
+    }
+  }
+}
+

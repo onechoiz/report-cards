@@ -1,0 +1,29 @@
+@import "../../../../../public/style/var.module.scss";
+
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: $innerPadding;
+}
+.infobox{
+   
+    margin-bottom: 8px;
+    font-weight: 800;
+    font-size: 20px;
+    @include infoboxBasic();
+    span{
+        background: white;
+        border-radius: 10px;
+        padding: 4px 10px ;
+    }
+    
+}
+
+@media (max-width:416px){
+ .infobox{
+    font-size: 15px;
+ }
+}
