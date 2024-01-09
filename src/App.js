@@ -64,7 +64,7 @@ useEffect(() => {
       <StudentContext.Provider value={{student, setStudent}}>
         <Header />
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" element={<Reports/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/individualReports" element={<Reports/>} />
        

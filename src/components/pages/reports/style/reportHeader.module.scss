@@ -1,6 +1,6 @@
 @import "../../../../../public/style/var.module.scss";
 .pdf_header{
-    width: 90%;
+    width: 100%;
     display: flex;
     padding: $innerPadding;
     justify-content: center;
@@ -8,6 +8,7 @@
     margin: auto;
     border-bottom: 1px solid $prim;
     // background: $bg;
+    
    
     .title{
         width: 400px;

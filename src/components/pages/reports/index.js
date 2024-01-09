@@ -56,12 +56,15 @@ const Reports = () => {
     examsTermOne.map((exam, i) => {
       return (
         <SingleExamsResultsBox
+        key = {i}
           examType={capitalise(exam.type)}
           score={exam.score}
           max={exam.max}
         />
       );
     });
+
+   
 
   return (
     <div className={styles.container}>
@@ -70,12 +73,16 @@ const Reports = () => {
           to download the report use a computer with Chrome browser
         </p>
       )}
+        {/* <SingleExamsResultsBox score={score} examType={examType} max={max}/> */}
       {/* {canDownload && <Btn onClick={() => toPDF()} btnText={"download"} />} */}
-     <Btn onClick={() => toPDF()} btnText={"download"}/>
+     {/* <Btn onClick={() => toPDF()} btnText={"download"}/> */}
+     {/* <Btn onClick={() => toPDF()} btnText={"download"}/> */}
+     <button  onClick={()=> toPDF()}>download now</button>
       {/* Content to be generated to PDF */}
 
+
       <div className={styles.print_container} ref={targetRef}>
-        <div>
+        
              <ReportHeader />
 
         <StudentsBox
@@ -85,7 +92,7 @@ const Reports = () => {
         />
         <ExamsResultsBox />
 
-        {/* <SingleExamsResultsBox score={score} examType={examType} max={max}/> */}
+      
 
         {printExamList}
         <GradingScale />
@@ -101,7 +108,7 @@ const Reports = () => {
         <ReportFooter />
         </div>
      
-      </div>
+    
     </div>
   );
 };

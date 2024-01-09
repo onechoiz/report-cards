@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Noto+Sans+SC:wght@300;400;500;800;900&display=swap');
 //   colours 
+
+
 $prim: #343F64;
 $sec: #c0bdbd;
 $acc: #03FB09;
@@ -67,6 +69,18 @@ $box-padding:  10px 3px;
     display: flex;
     flex-direction: column;
     padding: $innerPadding;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+ width: 100%;
+}
+img{
+  width: 100%;
+  max-width: 100%;
 }
  .devider{
         min-height: 1px;
