@@ -10,18 +10,18 @@
     // background: $bg;
    
     .title{
-        width: 300px;
+        width: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
     }
-    h2,h3{
+    .title_main,h3{
         text-align: center;
     }
-    h2{
-        font-size: 30px;
+    .title_main{
+        font-size: 25px;
     }
     p{
         text-align: center;

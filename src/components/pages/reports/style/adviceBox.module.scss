@@ -1,0 +1,19 @@
+@import "../../../../../public/style/var.module.scss";
+.container{
+ width:  100%;
+ display: flex;
+//    background: #000;
+    padding: $innerPadding;
+    justify-content: space-between;
+     font-size: 15px;
+    
+}
+.header_descrip{
+    width: 30%;
+    font-weight: 700;
+}
+.header_info{
+    width: 70%;
+    font-style: italic;
+    // line-height: 17px;
+}

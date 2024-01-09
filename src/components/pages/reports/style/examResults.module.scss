@@ -1,0 +1,24 @@
+@import "../../../../../public/style/var.module.scss";
+.container{
+    width:  100%;
+    display: flex;
+    // background: #000;
+    padding: $innerPadding;
+    // justify-content: space-between;
+    font-size: 15px;
+}
+.header_empty{
+    width: 30%;
+// background: #000;
+
+}
+.header_info{
+width: 70%;
+// background: #040;
+display: flex;
+
+}
+.header_infobox{
+    width: 50%;
+    font-weight: 700;
+}

@@ -1,0 +1,32 @@
+@import "../../../../../public/style/var.module.scss";
+
+.container{
+    // width: 50%;
+    // display: flex;
+    // font-size: 14px;
+    // padding: $innerPadding;
+    // justify-content: center;
+    // @include printContainer
+    width: 100%;
+    margin: auto;
+    display: flex;
+    // flex-direction: column;
+    padding: $innerPadding;
+    // align-self: start;
+    margin: 10px 0;
+
+
+}
+.description_box{
+    width: 30%;
+}
+.info_box{
+    width: 30%;
+}
+.description_box{
+    font-weight: 700;
+}
+
+li{
+    list-style: none;
+}

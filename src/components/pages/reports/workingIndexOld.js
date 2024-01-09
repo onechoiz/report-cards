@@ -33,18 +33,51 @@ const generalAdviceTerm1 = { type: "General Advice", content: "This is your seco
   // console.log(student.exams);
 
 
- 
+  // useEffect(() => {
+  //   if (student) {
+  //     let totalScore = student.exams.reduce((acc, e) => {
+  //       return acc + e.score;
+  //     }, 0);
+
+  //     let totalScoreMax = student.exams.reduce((acc, e) => {
+  //       return acc + e.max;
+  //     }, 0);
+
+  //     let totalPercMax = student.exams.reduce((acc, e) => {
+  //       const percentNum  = Number(e.percent.slice(0, -1))
+  //       // console.log(typeof (percentNum));
+          
+  //         return percentNum + acc
+        
+  //     }, 0);
+
+  //     let studentTotalCalculation = {
+  //       totalScore,
+  //       totalScoreMax,
+  //       totalPercMax: `${totalPercMax}% `
+  //     };
+
+  //     setMaxScores(studentTotalCalculation);
+  //     setCanDownload(window.innerWidth >= 890);
+  //   }
+  // }, [student]);
+
+  // console.log("studnet", student);
 
 const capitalise = (string)=> {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
+//   const examsReportList = student.exams && student.exams.map((e,i)=>{
+//       return <SingleReportBox key={e.id} exam={capitalise(e.type)} 
+//          score={e.score}  max = {e.max} percentage={e.percent}/>
+//   })
 
   
-  const options  = {
-      format: 'A4',
-      method: 'open',
-  }
+//   const options  = {
+//       format: 'A4',
+//       method: 'open',
+//   }
  
 
 //  for print pdf 
@@ -66,12 +99,32 @@ const printExamList = student.exams && examsTermOne.map((exam,i)=>{
   return (
     <div className={styles.container}>
       {!canDownload && <p className={styles.info} >to download the report use a computer with Chrome browser</p>}
-      {canDownload  &&   <Btn onClick={() => toPDF(options)} btnText={'download'} />
+      {/* {canDownload  &&   <Btn onClick={() => toPDF(options)} btnText={'download'} />
       }
-    
+     */}
     
           {/* Content to be generated to PDF */}
-  
+      {/* <div ref={targetRef}>
+    
+        <div className={styles.pdf_container}>
+         <ReportHeader/>
+         <StudentsInfoBox studentName={name}  pinyinName={student.pinyinName}  studentEnglishName={student.englishName} teacherName={student.englishTeacher}/>
+         {student.exams &&  
+           <div  className={styles.exams_box}>
+            <h2 className={styles.title}>Grades</h2>
+           <SingleReportBox exam={"Exam"} max={"Max"} percentage={"%"} score={"Your Score"} />
+
+             {examsReportList}
+
+         </div>}
+       
+        
+         { student.exams && <SingleReportBox exam={"Total"} score={maxScores.totalScore} max={maxScores.totalScoreMax} percentage={maxScores.totalPercMax}/>}
+         <TeacherRmarks teacherRmarks={student.teacherFeedback}/>
+         <ReportFooter/>
+        </div>
+     
+      </div> */}
 
       <div className={styles.print_container} ref={targetRef}>
         

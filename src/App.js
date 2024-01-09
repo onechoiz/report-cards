@@ -22,20 +22,32 @@ function App() {
     "chineseName": "张三",
     "pinyinName": "Zhāng Sān",
     "englishName": "John Smith",
-    "englishTeacher": "Ms Lily",
-    "teacherFeedback": "Excellent student with a strong work ethic.",
-    "exams": [
-      { "type": "listening", "score": 20, "percent": "20%", "max": 20 },
-     { "type": "writing", "score": 0,  "percent": "20%", "max": 20 },
-      { "type": "general", "score": 19,  "percent": "20%", "max": 20 }
-    ],
-    "behaviour": [
-      {"attentiveness": 7},
-      {"effort": 3},
+    "teacherFeedback": "Josie, you're undoubtedly capable, and I've noticed some level of activity from you. Keep up the good work, and consider participating more actively in class discussions. Your contributions will enhance the overall learning environment.Good job!",
+    "exams": 
+       { "term1": [
+      { "type": "total score", "score": 1, "max": 100 },
+      { "type": "listening", "score": 20, "max": 20 },
+      { "type": "writing", "score": 20, "max": 20 },
+      { "type": "general paper", "score": 1, "max": 20 }
+      
+    ], 
+      "term2": [  
+      ]
+    }
+    ,
+    "behaviour":
+      {
+       "term1": [
+      {"attendance": 7},
       {"participation": 6},
-     { "conduct": 7}
-    ]
-  }
+      {"behavior": 3},
+      {"conduct": 7}
+       ]
+  
+      ,
+      "term2" : [{}]}
+    
+  },
   
   );
 

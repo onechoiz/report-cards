@@ -7,16 +7,27 @@
     "englishName": "John Smith",
     "teacherFeedback": "Excellent student with a strong work ethic.",
     "exams": [
+       { "term1": [
       { "type": "listening", "score": 20, "max": 20 },
       { "type": "writing", "score": 20, "max": 20 },
       { "type": "general paper", "score": 1, "max": 20 }
-    ],
-    "behaviour": {
-      "attendance": 7,
-      "participation": 6,
-      "behavior": 3,
-      "conduct": 7
+    ]}, {
+      "term2": [  
+      ]
     }
+    ],
+    "behaviour":[
+      {
+       "term1": [
+      {"attendance": 7},
+      {"participation": 6},
+      {"behavior": 3},
+      {"conduct": 7}
+       ]
+  
+      },
+     { "term2" : [{}]}
+    ] 
   },
   {
     "id": 2,

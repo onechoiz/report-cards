@@ -1,13 +1,16 @@
 @import "../../../../public/style/var.module.scss";
 .container{
     //  text-align: center;
-      margin: 30px auto;
+ 
+      margin: auto;
+
 }
 .info{
     text-align: center;
     margin: 30px auto;
 }
-.pdf_container{
+.print_container{
+   
     margin: 40px  auto;
     display: flex;
     border:  4px solid  $prim;
@@ -15,8 +18,8 @@
     flex-direction: column;
     // align-items: center;
     justify-content: center;
-    width: 80%;
-    gap: 30px
+    width: 100%;
+    gap: 30px;
    
 }
 .exams_box{
@@ -25,6 +28,22 @@
     }
 }
 
+
+// for print pdf only {
+    .print_container{
+    height: 29.7cm;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: $innerPadding;
+    border:  4px solid  $prim;
+     justify-content: center;
+    width: 80%;
+    gap: 10px;
+
+
+    }
 @media (max-width: 670px){
     .pdf_container{
         width: 96%;

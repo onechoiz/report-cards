@@ -1,0 +1,49 @@
+@import "../../../../../public/style/var.module.scss";
+
+
+.container{
+   width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: $innerPadding;
+    
+}
+.infobox{
+   
+   display: flex;
+   font-size: 15px;
+   font-weight: 700;
+    
+    p{
+        display: flex;
+        width: 30%;
+         border: 1px solid ;
+         padding:  $box-padding ;
+         
+
+        // border-right:1px solid  ;
+    }
+    span{
+        width: 70%;
+         border: 1px solid ;
+         padding:  10px ;
+    }
+    // margin-bottom: 8px;
+    // font-weight: 800;
+    // font-size: 20px;
+    // @include infoboxBasic();
+
+    // span{
+    //     background: white;
+    //     border-radius: 10px;
+    //     padding: 4px 10px ;
+    // }
+    
+}
+
+// @media (max-width:416px){
+//  .infobox{
+//     font-size: 15px;
+//  }
+// }
