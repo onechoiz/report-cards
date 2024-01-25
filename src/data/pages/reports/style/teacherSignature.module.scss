@@ -4,9 +4,15 @@
 //  font-weight: 900;
  font-style: italic;
  font-family: $handWrittn;
+ display: flex;
+ flex-direction: column;
 //  display: flex;
 //    background: #000;
     padding: $innerPadding;
     // justify-content: space-between;
      font-size: 15px;
+
+     img{
+        width: 24%;
+     }
 }

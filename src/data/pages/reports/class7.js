@@ -1,29 +1,24 @@
 import React, { useContext, useEffect, useState } from "react";
 import { usePDF } from "react-to-pdf";
-import { StudentContext } from "../../../App";
 import styles from "./reports.module.scss";
 import ReportHeader from "./components/ReportHeader";
-import StudentsInfoBox from "./components/StudentsInfoBox";
-import SingleReportBox from "./components/SingleReportBox";
-import { TeacherRmarks } from "./components/TeacherRmarks";
 import ReportFooter from "./components/ReportFooter";
-import { Btn } from "../login/components/Btn";
 import GradingScale from "./components/GradingScale";
 import StudentsBox from "./components/StudentsBox";
 import ExamsResultsBox from "./components/ExamsResultsBox";
 import SingleExamsResultsBox from "./components/SingleExamResults";
 import AdviceBox from "./components/AdviceBox";
-import TeacherFeedback from "../home/components/TeacherFeedback";
 import TeacherSignature from "./components/TeacherSignature";
 
-const Reports = () => {
-  const { student } = useContext(StudentContext);
+const Reports = ({student}) => {
+  // const { student } = useContext(StudentContext);
+  
   const name = student.chineseName;
   console.log(name);
-  const { toPDF, targetRef } = usePDF({ filename: `${name}_report.pdf` });
+  // const { toPDF, targetRef } = usePDF({ filename: `${name}_report.pdf` });
 
-  const [maxScores, setMaxScores] = useState({});
-  const [canDownload, setCanDownload] = useState(true);
+  // const [maxScores, setMaxScores] = useState({});
+  // const [canDownload, setCanDownload] = useState(true);
 
   console.log("st", student.exams.term1);
 
@@ -46,9 +41,7 @@ const Reports = () => {
 
   //  for print pdf
 
-  const score = 12;
-  const examType = "Total";
-  const max = "/40";
+  
   const examsTermOne = student.exams.term1;
 
   const printExamList =
@@ -59,6 +52,7 @@ const Reports = () => {
         key = {i}
           examType={capitalise(exam.type)}
           score={exam.score}
+          sign= {exam.type === "total score" ?  "%" : "/"}
           max={exam.max}
         />
       );
@@ -67,23 +61,12 @@ const Reports = () => {
    
 
   return (
-    <div className={styles.container}>
-      {!canDownload && (
-        <p className={styles.info}>
-          to download the report use a computer with Chrome browser
-        </p>
-      )}
-        {/* <SingleExamsResultsBox score={score} examType={examType} max={max}/> */}
-      {/* {canDownload && <Btn onClick={() => toPDF()} btnText={"download"} />} */}
-     {/* <Btn onClick={() => toPDF()} btnText={"download"}/> */}
-     {/* <Btn onClick={() => toPDF()} btnText={"download"}/> */}
-     <button  onClick={()=> toPDF()}>download now</button>
-      {/* Content to be generated to PDF */}
 
+    
 
-      <div className={styles.print_container} ref={targetRef}>
+      <div className={styles.print_container} >
         
-             <ReportHeader />
+        <ReportHeader classN={student.class}/>
 
         <StudentsBox
           studentName={name}
@@ -92,7 +75,7 @@ const Reports = () => {
         />
         <ExamsResultsBox />
 
-      
+  
 
         {printExamList}
         <GradingScale />
@@ -101,7 +84,7 @@ const Reports = () => {
           desc={generalAdviceTerm1.content}
         />
         <AdviceBox
-          desc_title={"Teacher advice"}
+          desc_title={"Teacher's Advice"}
           desc={student.teacherFeedback}
         />
         <TeacherSignature />
@@ -109,7 +92,7 @@ const Reports = () => {
         </div>
      
     
-    </div>
+
   );
 };
 

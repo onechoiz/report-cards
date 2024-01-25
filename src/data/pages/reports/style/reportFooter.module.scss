@@ -9,7 +9,7 @@
     gap: 10px;
     padding: 5px;
     display: flex;
-    font-size: 15px;
+    font-size: 12px;
     a{
         color: $acc;
     }
@@ -21,8 +21,14 @@
         // width: 50%;
         display: flex;
         gap: 20px;
+        color: grey;
+        align-items: center;
         // background: #000;
        
+    }
+    span{
+        font-size: 17px;
+        font-weight: 700;
     }
 }
 

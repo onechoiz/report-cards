@@ -1,7 +1,7 @@
 import React from 'react'
 import styles  from "../style/reportHeader.module.scss"
 
- const ReportHeader = ({semester = "1", classN=6, academicYear= "2023-2034"}) => {
+ const ReportHeader = ({semester = "1", classN, academicYear= "2023-2024"}) => {
   return (
     <div className={styles.pdf_header}>
             <div  className={styles.logo} >

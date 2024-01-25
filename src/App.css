@@ -3,8 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body{
  width: 100%;
+ overflow: scroll;
 }
 img{
   width: 100%;

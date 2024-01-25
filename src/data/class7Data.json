@@ -1,0 +1,1452 @@
+[
+  {
+    "id": 0.7067250031259342,
+    "specialKey": 1705334418202.1567,
+    "class": 7,
+    "chineseName": "马梓哲",
+    "pinyinName": "Ma Zi Zhe",
+    "englishName": "Tanjiro",
+    "teacherFeedback": "Tanjiro, you are always present and well behaved. However, I notice a slight lack of attention. Try your best to make the most of the opportunity that you are given through IEP. ",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 57.5
+        },
+        {
+          "type": "listening",
+          "score": 13,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 21,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 1.083981578105047,
+    "specialKey": 1705334418202.5193,
+    "class": 7,
+    "chineseName": "王子腾",
+    "pinyinName": "Wang Zi Teng",
+    "englishName": "David",
+    "teacherFeedback": "David, you are good at writing. Try your best to also express yourself in the classroom . It will positively affect your learning experience. ",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 55.63
+        },
+        {
+          "type": "listening",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 8.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 24,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 2.91998821221053,
+    "specialKey": 1705334418202.9338,
+    "class": 7,
+    "chineseName": "王弘政",
+    "pinyinName": "Wang Hong Zheng",
+    "englishName": "Maston",
+    "teacherFeedback": "Maston,give attention to broadening your vocabulary and take gradual steps to increase your participation. These actions will improve your overall learning experience and positively contribute to class discussions. Continue the excellent effort!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 50
+        },
+        {
+          "type": "listening",
+          "score": 10,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 9,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 21,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 3.417195609939891,
+    "specialKey": 1705334418202.2344,
+    "class": 7,
+    "chineseName": "王浩宇",
+    "pinyinName": "Wang Hao Yu",
+    "englishName": "Verling",
+    "teacherFeedback": "Verling, your attentive listening skills are commendable. However, there's room for more active participation in classroom activities, including answering questions without waiting to be asked. I encourage you to seize the opportunity to contribute voluntarily, as it will enhance your overall learning experience. Don't hesitate to share your thoughts and engage more actively in class discussions. Keep up the good work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 61.25
+        },
+        {
+          "type": "listening",
+          "score": 15,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 22,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 4.634299749190125,
+    "specialKey": 1705334418202.0327,
+    "class": 7,
+    "chineseName": "从前美",
+    "pinyinName": "Cong Qian Mei",
+    "englishName": "Matiria",
+    "teacherFeedback": "Materia, I remember your desire to improve your speaking skills. To enhance your proficiency, I encourage you to take the initiative by answering questions without waiting to be asked. Active participation will undoubtedly contribute to your goal of becoming a more confident and articulate communicator. Keep up the great effort!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 56.25
+        },
+        {
+          "type": "listening",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 10,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 23,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 5.223702976236957,
+    "specialKey": 1705334418202.8845,
+    "class": 7,
+    "chineseName": "凤安琪",
+    "pinyinName": "Feng An Qi",
+    "englishName": "Venti",
+    "teacherFeedback": "Venti, I recognise that following English can be challenging, especially as it is a foreign language. I salute your attention and dedication. Try your best to learn step by step, and your efforts will undoubtedly lead to progress. Keep up the hard work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 50
+        },
+        {
+          "type": "listening",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 6,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 22,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 6.145511864893002,
+    "specialKey": 1705334418202.9346,
+    "class": 7,
+    "chineseName": "邢茂杨",
+    "pinyinName": "Xing Mao Yang",
+    "englishName": "Isak",
+    "teacherFeedback": "Isak, your attentiveness and dedication to classwork are commendable. I've noticed your commitment. Don't hesitate to speak up; active participation will further enhance your learning experience. Your contributions are valued, and your voice adds to the richness of our discussions. Keep up the excellent work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          "score": 47.5
+        },
+        {
+          "type": "listening",
+          "score": 14,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 8,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 16,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 7.930625813202744,
+    "specialKey": 1705334418202.3071,
+    "class": 7,
+    "chineseName": "任明宇",
+    "pinyinName": "Ren Ming Yu",
+    "englishName": "Jeffey",
+    "teacherFeedback": "Jeffrey, you are on the path to great achievements. Stay focused, and continue to do your best by actively participating in class. Your dedication and engagement are key to your success. Keep up the excellent work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 56.25
+        },
+        {
+          "type": "listening",
+          "score": 15,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 19,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 8.754037068026223,
+    "specialKey": 1705334418202.193,
+    "class": 7,
+    "chineseName": "刘韦笑",
+    "pinyinName": "Liu Wei Xiao",
+    "englishName": "Bry",
+    "teacherFeedback": "Bry, your hard work is evident. I encourage you to speak up and actively participate by answering questions. Your contributions will enhance the learning environment and showcase your understanding. Keep up the dedicated effort!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 61.88
+        },
+        {
+          "type": "listening",
+          "score": 9,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 10.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 30,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 9.392479607886576,
+    "specialKey": 1705334418202.413,
+    "class": 7,
+    "chineseName": "江煜晗",
+    "pinyinName": "Jiang Yu Han",
+    "englishName": "George",
+    "teacherFeedback": "George, maintain your focus, even if there are occasional distractions. Your hard work is appreciated, and staying dedicated will lead to continued success. Keep up the good effort",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 53.75
+        },
+        {
+          "type": "listening",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 8,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 24,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 10.579984021245384,
+    "specialKey": 1705334418202.6245,
+    "class": 7,
+    "chineseName": "汤若琪",
+    "pinyinName": "Tang Ruo Qi",
+    "englishName": "Teri",
+    "teacherFeedback": "Teri, your hard work is commendable. To further enrich your learning experience, I encourage you to overcome shyness and speak more in class. Your voice is valuable, and active participation will enhance your confidence and contribute to the discussions. Keep up the excellent work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 63.75
+        },
+        {
+          "type": "listening",
+          "score": 13,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 26,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 11.537303865923086,
+    "specialKey": 1705334418202.259,
+    "class": 7,
+    "chineseName": "孙浩翔",
+    "pinyinName": "Sun Hao Xiang",
+    "englishName": "Curry",
+    "teacherFeedback": "Curry, I've observed moments of distraction, and there's room for improvement in English. Focus on minimising distractions to enhance your learning experience, and dedicate some time to work on language skills. Your efforts will lead to progress. Keep up the commitment!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 65.63
+        },
+        {
+          "type": "listening",
+          "score": 13,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 9.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 30,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 12.211141942902312,
+    "specialKey": 1705334418202.8684,
+    "class": 7,
+    "chineseName": "孙嘉忆",
+    "pinyinName": "Sun Jia Yi",
+    "englishName": "Kovini",
+    "teacherFeedback": "Kovini, your writing skills are impressive. Don't hesitate to speak up in class; your ability to articulate your thoughts is valuable. Your active participation will further enhance your communication skills. Keep up the excellent work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 61.25
+        },
+        {
+          "type": "listening",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 14,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 23,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 13.931341650988307,
+    "specialKey": 1705334418202.7505,
+    "class": 7,
+    "chineseName": "李其志",
+    "pinyinName": "Li Qi Zhi",
+    "englishName": "Churchill",
+    "teacherFeedback": "Churchill, I truly wish you wouldn't give up on English. Persistence and continuous effort will lead to improvement. Don't hesitate to seek assistance or explore different learning approaches. Keep pushing forward; your dedication will make a significant difference in your language skills.",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 70.63
+        },
+        {
+          "type": "listening",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 13.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 31,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 14.175921441748336,
+    "specialKey": 1705334418202.8306,
+    "class": 7,
+    "chineseName": "李岩",
+    "pinyinName": "Li Yan",
+    "englishName": "Felliks",
+    "teacherFeedback": "Feliks, keep up the good work! Your responsibility is commendable. Stay focused, minimise distractions, and continue your dedicated approach to learning. Your efforts are truly appreciated.",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 58.75
+        },
+        {
+          "type": "listening",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 25,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 15.455506509731588,
+    "specialKey": 1705334418202.1907,
+    "class": 7,
+    "chineseName": "李欣岚",
+    "pinyinName": "Li Xin Lan",
+    "englishName": "Star",
+    "teacherFeedback": "Star, it's fantastic to witness your active and engaged presence in class. Consider focusing on enhancing your vocabulary skills, and don't hesitate to speak up more during our discussions.",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 48.13
+        },
+        {
+          "type": "listening",
+          "score": 10,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 10.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 18,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 16.130660461796914,
+    "specialKey": 1705334418202.4482,
+    "class": 7,
+    "chineseName": "李晨希",
+    "pinyinName": "Li Chen Xi",
+    "englishName": "Chris",
+    "teacherFeedback": "Chris, your responsibility, attentiveness, and engagement in class are commendable. To enhance your learning experience, I encourage you to take the initiative to answer questions and actively participate in discussions. Your contributions will not only showcase your understanding but also enrich the overall learning environment. Keep up the excellent work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 58.13
+        },
+        {
+          "type": "listening",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 13.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 22,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 17.651608581198815,
+    "specialKey": 1705334418202.4353,
+    "class": 7,
+    "chineseName": "肖舒涵",
+    "pinyinName": "Xiao Shu Han",
+    "englishName": "Emma",
+    "teacherFeedback": "Emma, your skills are commendable, and it's great to see you actively speaking in class. Well done! Your participation and dedication to learning will undoubtedly lead to success. Keep up the excellent work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 63.13
+        },
+        {
+          "type": "listening",
+          "score": 14,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 13.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 23,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 18.303184451603595,
+    "specialKey": 1705334418202.8284,
+    "class": 7,
+    "chineseName": "何颖",
+    "pinyinName": "He Ying",
+    "englishName": "Holly",
+    "teacherFeedback": "Holly, your responsible and well-behaved demeanour is appreciated. You are hard-working and enthusiastic. I encourage you to speak up more in class. Keep up the good work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 46.25
+        },
+        {
+          "type": "listening",
+          "score": 10,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 10,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 17,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 19.33419892751743,
+    "specialKey": 1705334418202.0403,
+    "class": 7,
+    "chineseName": "张言",
+    "pinyinName": "Zhang Yan",
+    "englishName": "Simon",
+    "teacherFeedback": "Simon, your dedication over the years is commendable, reflecting your hard work, curious mind, and caring nature. I encourage you to speak up in class—don't be afraid to share your thoughts. Your qualities and efforts are bound to lead you to success. Keep up the excellent work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 63.13
+        },
+        {
+          "type": "listening",
+          "score": 14,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 12.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 24,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 20.385490565298717,
+    "specialKey": 1705334418202.2458,
+    "class": 7,
+    "chineseName": "张振",
+    "pinyinName": "Zhang Zhen",
+    "englishName": "Thompson",
+    "teacherFeedback": "Thompson, your respectful and knowledgeable demeanour is commendable. Don't hesitate to share your insights by speaking up in class; your contributions will add valuable perspectives to our discussions. Keep up the great work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 58.75
+        },
+        {
+          "type": "listening",
+          "score": 10,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 25,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 21.162591273828482,
+    "specialKey": 1705334418202.5881,
+    "class": 7,
+    "chineseName": "张家睿",
+    "pinyinName": "Zhang Jia Rui",
+    "englishName": "Yalso",
+    "teacherFeedback": "Yalso, consider staying focused, actively participating, and expanding your vocabulary. These efforts will enhance your learning experience and contribute to your overall language proficiency. Keep up the good work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 55
+        },
+        {
+          "type": "listening",
+          "score": 14,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 8,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 22,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 22.776310858160475,
+    "specialKey": 1705334418202.0535,
+    "class": 7,
+    "chineseName": "张祥锐",
+    "pinyinName": "Zhang Xiang Rui",
+    "englishName": "Tom",
+    "teacherFeedback": "Tom, I’ve noticed your attentive listening, but there are moments of distraction. I encourage you to engage more actively in class discussions and express your thoughts verbally. Your contributions will not only enhance your understanding but also enrich our overall learning environment. Keep up the good work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 66.25
+        },
+        {
+          "type": "listening",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 29,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 23.955085903194057,
+    "specialKey": 1705334418202.8215,
+    "class": 7,
+    "chineseName": "张锦奇",
+    "pinyinName": "Zhang Jin Qi",
+    "englishName": "Steve-block",
+    "teacherFeedback": "Steve, I've observed moments of absent-mindedness and a lack of focus. Remember, you can overcome these challenges if you put your mind to it. Channel your efforts towards staying more focused, and I believe you'll see positive results in your academic journey.",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 55.63
+        },
+        {
+          "type": "listening",
+          "score": 14,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 6.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 24,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 24.194390188480096,
+    "specialKey": 1705334418202.555,
+    "class": 7,
+    "chineseName": "张毅",
+    "pinyinName": "Zhang Yi",
+    "englishName": "Danny",
+    "teacherFeedback": "Danny, I appreciate your enthusiasm and eagerness to learn—it's commendable. To enhance your learning experience, focus on staying attentive and work on acquiring more vocabulary skills. Your dedication to improvement is key to your success. Keep up the great work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 48.75
+        },
+        {
+          "type": "listening",
+          "score": 9,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 9,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 21,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 25.40771255994547,
+    "specialKey": 1705334418202.2913,
+    "class": 7,
+    "chineseName": "陈开航",
+    "pinyinName": "Chen Kai Hang",
+    "englishName": "Fleam",
+    "teacherFeedback": "Fleam, being reserved may hinder your progress. Consider working on expanding your vocabulary and making an effort to speak up more in class. Overcoming any reservations will contribute positively to your academic journey.",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 48.75
+        },
+        {
+          "type": "listening",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 7,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 21,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 26.098162559770344,
+    "specialKey": 1705334418202.4688,
+    "class": 7,
+    "chineseName": "陈明杰",
+    "pinyinName": "Chen Ming Jie",
+    "englishName": "Sonny",
+    "teacherFeedback": "Sonny, your positive attitude is wonderful and contributes positively to our environment. Consider working on expanding your vocabulary and actively engaging more in class discussions. Your enthusiasm and contributions will surely enhance our learning experience. Keep up the excellent attitude!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 45
+        },
+        {
+          "type": "listening",
+          "score": 8,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 10,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 18,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 27.9234688939985,
+    "specialKey": 1705334418202.8882,
+    "class": 7,
+    "chineseName": "陈锐松",
+    "pinyinName": "Chen Rui Song",
+    "englishName": "Thomas",
+    "teacherFeedback": "Thomas, your quiet and hardworking nature is appreciated. Don't hesitate to break your silence and speak up in class. Your insights and participation will add value to our discussions, contributing to a more dynamic learning environment. Keep up the excellent work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 57.5
+        },
+        {
+          "type": "listening",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 24,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 28.437380120534588,
+    "specialKey": 1705334418202.5095,
+    "class": 7,
+    "chineseName": "庞士航",
+    "pinyinName": "Pang Shi Hang",
+    "englishName": "Jay",
+    "teacherFeedback": "Jay, consider dedicating some time to work on improving your vocabulary skills and staying focused. These efforts will contribute to a more comprehensive understanding and enhance your overall learning experience. Keep up the good work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 53.75
+        },
+        {
+          "type": "listening",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 10,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 22,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 29.11077498727775,
+    "specialKey": 1705334418202.9382,
+    "class": 7,
+    "chineseName": "赵玉杰",
+    "pinyinName": "Zhao Yu Jie",
+    "englishName": "Harry",
+    "teacherFeedback": "Harry, taking on the challenge of learning a new language can be tough, but being more responsible and actively trying will make a significant difference. Embrace the difficulties as part of the learning process, and remember that without trying, progress may be harder to achieve. Your efforts will undoubtedly contribute to your language learning journey. Keep pushing yourself!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 50.63
+        },
+        {
+          "type": "listening",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 8.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 21,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 30.164208385389305,
+    "specialKey": 1705334418202.4922,
+    "class": 7,
+    "chineseName": "荣华锋",
+    "pinyinName": "Rong Hua Feng",
+    "englishName": "Seven",
+    "teacherFeedback": "Seven, your respectful and well-behaved demeanour is commendable. Try your best to engage in the learning process more actively to make the most of your educational experience. Your efforts will undoubtedly contribute to your growth and success. Keep up the good work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 56.88
+        },
+        {
+          "type": "listening",
+          "score": 15,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 5.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 25,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 31.74230729510783,
+    "specialKey": 1705334418202.4622,
+    "class": 7,
+    "chineseName": "荣韵",
+    "pinyinName": "Rong Yun",
+    "englishName": "Rosy",
+    "teacherFeedback": "Rosy, your dedication and attentiveness are commendable, and I can see your earnest efforts to learn. Take the next step by speaking up more in class; your active participation will further enhance your language skills and overall learning experience. Keep up the great work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 68.13
+        },
+        {
+          "type": "listening",
+          "score": 15,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 13.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 26,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 32.665078627957556,
+    "specialKey": 1705334418202.4956,
+    "class": 7,
+    "chineseName": "胡志强",
+    "pinyinName": "Hu Zhi Qiang",
+    "englishName": "Zalder",
+    "teacherFeedback": "Zalder, your hard work and courage are commendable, and you've proven to be reliable when answering questions. I encourage you to speak up more in class to fully maximise your learning journey. Your active participation will undoubtedly contribute to a more enriching educational experience. Keep up the great work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 63.75
+        },
+        {
+          "type": "listening",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 13,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 27,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 33.74568157376291,
+    "specialKey": 1705334418202.3066,
+    "class": 7,
+    "chineseName": "莫子齐",
+    "pinyinName": "Mo Zi Qi",
+    "englishName": "Garry",
+    "teacherFeedback": "Garry, consider minimising distractions, maintaining focus, and actively participating in class. These efforts will significantly enhance your learning experience and contribute to your overall academic growth. Keep up the good work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 56.88
+        },
+        {
+          "type": "listening",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 11.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 22,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 34.10123073004284,
+    "specialKey": 1705334418202.0623,
+    "class": 7,
+    "chineseName": "顾士恩",
+    "pinyinName": "Gu Shi En",
+    "englishName": "Joshua",
+    "teacherFeedback": "Joshua, your skills are impressive, but I've noticed a lack of active participation. Make the most of your learning experience by engaging more in class discussions. Your insights and contributions will enhance both your understanding and the overall learning environment. Keep up the good work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 46.25
+        },
+        {
+          "type": "listening",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 9,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 17,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 35.78064618342019,
+    "specialKey": 1705334418202.0376,
+    "class": 7,
+    "chineseName": "徐圣男",
+    "pinyinName": "Xu Sheng Nan",
+    "englishName": "Sans",
+    "teacherFeedback": "Sans, your responsibility, curiosity, and hard work are commendable. To maximise your potential, aim to be more focused and active in your learning. Your dedication is evident, and enhancing your engagement will further contribute to your success. Keep up the great work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 63.75
+        },
+        {
+          "type": "listening",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 13,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 27,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 36.944296985853335,
+    "specialKey": 1705334418202.8438,
+    "class": 7,
+    "chineseName": "高梦涵",
+    "pinyinName": "Gao Meng Han",
+    "englishName": "Cha",
+    "teacherFeedback": "Cha, your enthusiasm is fascinating, and I appreciate it. It would be even more beneficial if you find the courage to speak up in class and actively engage in learning more. Your contributions are valued, and participating further will enhance your overall educational experience. Keep up the enthusiasm and take the initiative to share your thoughts!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 56.88
+        },
+        {
+          "type": "listening",
+          "score": 11,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 8.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 26,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 37.56651278923266,
+    "specialKey": 1705334418202.4905,
+    "class": 7,
+    "chineseName": "黄鑫越",
+    "pinyinName": "Huang Xin Yue",
+    "englishName": "Aria",
+    "teacherFeedback": "Aria, I've noticed your presence in class, but it seems there might be some shyness hindering your willingness to speak. Don't be afraid to express your thoughts; your contributions are valued, and speaking up will enhance your learning experience.",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 58.75
+        },
+        {
+          "type": "listening",
+          "score": 10,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 10,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 27,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 38.06150828451335,
+    "specialKey": 1705334418202.1553,
+    "class": 7,
+    "chineseName": "彭懋然",
+    "pinyinName": "Peng Mao Ran",
+    "englishName": "Kathrin",
+    "teacherFeedback": "Kafrin, your progress is evident, and I encourage you to keep up the good work. Your efforts and dedication to learning are commendable. Keep striving for excellence!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 63.13
+        },
+        {
+          "type": "listening",
+          "score": 14,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 10.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 26,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 39.10388400540193,
+    "specialKey": 1705334418202.0522,
+    "class": 7,
+    "chineseName": "鲍凌峰",
+    "pinyinName": "Bao Ling Feng",
+    "englishName": "Oliver",
+    "teacherFeedback": "Oliver, you exhibit responsibility, active engagement in class, and a hardworking attitude. Keep up the good work, and continue your dedication to learning. Your efforts are truly commendable.",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 73.75
+        },
+        {
+          "type": "listening",
+          "score": 15,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 16,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 28,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 40.55484564313236,
+    "specialKey": 1705334418202.465,
+    "class": 7,
+    "chineseName": "樊俊涛",
+    "pinyinName": "Fan Jun Tao",
+    "englishName": "Kocho",
+    "teacherFeedback": "Kocho, do not let a lack of language skills lead to disrespectful behaviour. Instead, strive to listen and learn step by step. Success will be achievable through your continuous efforts and dedication to improving your language proficiency. Keep up the hard work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 43.75
+        },
+        {
+          "type": "listening",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 18,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 41.902370466859935,
+    "specialKey": 1705334418202.6077,
+    "class": 7,
+    "chineseName": "薛筱雅",
+    "pinyinName": "Xue Xiao Ya",
+    "englishName": "Nina",
+    "teacherFeedback": "Nina , I've noticed you're a good listener, but it seems shyness might be holding you back. Don't hesitate to share your thoughts and ideas in class; your contributions are valued and can enrich your learning  experience.",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+      
+          "score": 62.5
+        },
+        {
+          "type": "listening",
+          "score": 13,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 13,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 24,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 42.37544192212323,
+    "specialKey": 1705334418202.9534,
+    "class": 7,
+    "chineseName": "魏良坤",
+    "pinyinName": "WeI Liang Kun",
+    "englishName": "Peter",
+    "teacherFeedback": "Peter, your responsibility and hard work are commendable. To further excel, consider focusing on improving your English skills and don't hesitate to speak up in class. Your efforts will contribute significantly to your academic growth. Keep up the great work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          
+          "score": 54.38
+        },
+        {
+          "type": "listening",
+          "score": 12,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 9.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 22,
+          "max": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 43.690622346869986,
+    "specialKey": 1705334418202.513,
+    "class": 7,
+    "chineseName": "代林坤",
+    "pinyinName": "Dai Lin kun",
+    "englishName": "Joester",
+    "teacherFeedback": "Joester, I appreciate your active participation in class. Consider dedicating some effort to enhancing your vocabulary—it will undoubtedly contribute to your overall academic growth. Keep up the good work!",
+    "exams": {
+      "term1": [
+        {
+          "type": "total score",
+          "score": 53.13
+        },
+        {
+          "type": "listening",
+          "score": 14,
+          "max": 20
+        },
+        {
+          "type": "writing",
+          "score": 9.5,
+          "max": 20
+        },
+        {
+          "type": "general paper",
+          "score": 19,
+          "max": 40
+        }
+      ]
+    }
+  }
+]

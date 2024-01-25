@@ -1,12 +1,11 @@
 import { Routes, Route , useNavigate} from "react-router-dom";
 import "./App.css";
-import Home from "./components/pages/home";
-import Login from "./components/pages/login";
 
 import Header from "./layout/header/Header";
 import Footer from "./layout/footer/Footer";
 import { createContext, useEffect, useState } from "react";
-import Reports from './components/pages/reports/index';
+import Reports from './data/pages/reports/index';
+import Print from "./data/pages/Print";
 
 
 export const StudentContext = createContext({});
@@ -62,10 +61,10 @@ useEffect(() => {
   return (
     <div className="App">
       <StudentContext.Provider value={{student, setStudent}}>
-        <Header />
+        {/* <Header /> */}
         <Routes>
-          <Route path="/" element={<Reports/>} />
-          <Route path="/login" element={<Login/>} />
+          <Route path="/" element={<Print/>} />
+         
           <Route path="/individualReports" element={<Reports/>} />
        
         </Routes>
